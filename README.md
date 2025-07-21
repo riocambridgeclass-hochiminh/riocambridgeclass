@@ -82,7 +82,7 @@ CHUYÊN LUYỆN CHỨNG CHỈ CAMBRIDGE - IELTS
         </section>
         <section id="contact">
             <h2>Liên Hệ</h2>
-            <p>Email: info@riocambridgeclass.com</p>
+            <p>Email: rio.cambridgeclass@gmail.com</p>
         </section>
     </div>
     <footer>
