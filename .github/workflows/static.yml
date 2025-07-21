@@ -12,7 +12,7 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true  # Thay đổi thành true để hủy các triển khai đang chờ
 
 jobs:
   deploy:
@@ -28,7 +28,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: .  # Đảm bảo đường dẫn đúng, thay bằng thư mục cụ thể nếu cần
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
